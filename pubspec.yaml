@@ -1,0 +1,30 @@
+name: hospital_management_system
+description: "Complete Hospital Management System with 30+ Screens"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # For date formatting
+  intl: ^0.18.1
+
+  # ==============================
+  # UPDATED FIREBASE DEPENDENCIES (FIXED VERSIONS)
+  # ==============================
+  firebase_core: ^4.2.1      # CHANGED from 2.24.2 to 4.2.1
+  firebase_auth: ^6.1.2      # CHANGED from 4.14.1 to 6.1.2
+  cloud_firestore: ^6.1.0    # CHANGED from 4.15.1 to 6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
